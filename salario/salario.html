@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Calculadora de Salário</title>
+</head>
+<body>
+    <h1>Calculadora de Salário</h1>
+    <form action="salario.php" method="post">
+        <label for="horasTrabalhadas">Horas Trabalhadas:</label>
+        <input type="number" name="horasTrabalhadas" required><br>
+
+        <label for="valorHora">Valor da Hora:</label>
+        <input type="number" name="valorHora" required><br>
+
+        <label for="percentualDesconto">Percentual de Desconto (%):</label>
+        <input type="number" name="percentualDesconto" required><br>
+
+        <input type="submit" value="Calcular Salário">
+    </form>
+</body>
+</html>
